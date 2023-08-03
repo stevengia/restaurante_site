@@ -1,0 +1,168 @@
+/*
+a.nav-link{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+body {
+  background: url('great-wall.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  padding-top: 20px;
+}
+*/
+
+/* General CSS */
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Acme', sans-serif;
+}
+
+footer{
+  height: 50%;
+  background-color: #323437;
+}
+
+p{
+  margin: 0 0 10px;
+}
+
+/* =========================================
+                  Buttons
+/* ========================================= */
+.button {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+/* =========================================
+                  Home
+/* ========================================= */
+
+.home{
+  height: 100%;
+}
+
+.home-cover{
+  height: 100%;
+  background-image: url("great-wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-content-box{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.home-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+   text-align: center;
+}
+
+.home-heading h3{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.home-description p{
+  color:#fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Acme', sans-serif;
+}
+
+a.nav-link{
+  color: #555555;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+}
+
+a.nav-link:hover{
+  color: ad2b2b;
+}
+
+.container{
+  max-width: 100%;
+}
+
+footer.footer.footer-black {
+    background: #323437;
+}
+.footer-big {
+    background-color: #252422;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-big {
+    color: #999999;
+    padding: 30px 0 18px;
+    text-align: center;
+}
+
+.footer .content{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer-big .content{
+  text-align: left;
+}
+
+.col-md-4{
+  width: 33.3%;
+}
+
+.footer-big .widget{
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.footer-big p{
+  color: #999999;
+}
+
+p{
+  margin: 0 0 10px;
+}
+.widget{
+  margin-bottom: 30px;
+  word-break: break-all;
+}
+div{
+  display: block;
+}
+
+.row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
