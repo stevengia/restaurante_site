@@ -260,3 +260,24 @@ iframe{
   cursor: pointer;
 }
 
+#menu-filters ul li a.active, #menu-filters ul li a:hover{
+  background: #FFB03B;
+  color: #fff;
+  border: 1px solid #ffb03b;
+}
+
+.menu-restaurant{
+  width: 50%;
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+
+.menu-restaurant .menu-title{
+  float: left;
+  font-family: 'Acme', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff5821;
+}
+
