@@ -226,3 +226,37 @@ iframe{
   font-weight: 400;
   overflow-x: hidden;
 }
+
+.section-padding{
+  padding:60px 0px;
+}
+
+.marb-35{
+  margin-bottom:35px;
+}
+
+.header-h{
+  font-size: 35px;
+  color: #ffb03b;
+  font-family: 'Acme', sans-serif;
+  font-weight: 300;
+}
+
+#menu-filters ul li{
+  display: inline-block;
+  color:#fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom:40px;
+}
+
+#menu-filters ul li a{
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #565656;
+  border-radius: 0px;
+  border: 1px solid #BBBBBB;
+  text-decoration: none;
+  cursor: pointer;
+}
+
