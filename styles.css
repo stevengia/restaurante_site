@@ -225,6 +225,7 @@ iframe{
   font-family: 'Acme', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .section-padding{
