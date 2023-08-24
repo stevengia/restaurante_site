@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  <script src="map.js"></script>
+  <title>Restaurante A Grande Muralha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Informações Gerais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Delivery</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </nav>
+</header>
+
+<body class="menu-body">
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Cardápio</h1>
+        </div>
+
+
+        <div class="col-md-12 text-center" id="menu-filters">
+          <ul>
+            <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+            <li><a class="filter" data-filter=".entradas">Entradas</a></li>
+            <li><a class="filter" data-filter=".especialidade-da-casa">Especialidades da Casa</a></li>
+            <li><a class="filter" data-filter=".sopas">Sopas</a></li>
+            <li><a class="filter" data-filter=".frango">Frango</a></li>
+            <li><a class="filter" data-filter=".frutos-do-mar">Frutos do Mar</a></li>
+            <li><a class="filter" data-filter=".boi">Boi</a></li>
+            <li><a class="filter" data-filter=".porco">Porco</a></li>
+            <li><a class="filter" data-filter=".carnes-e-tofu">Carnes e Tofu</a></li>
+            <li><a class="filter" data-filter=".vegetariano">Vegetariano</a></li>
+            <li><a class="filter" data-filter=".guarnicoes">Guarnições</a></li>
+            <li><a class="filter" data-filter=".macarrao">Chow Mein ( Macarrão )</a></li>
+            <li><a class="filter" data-filter=".sobremesa">Sobremesa</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-wrapper">
+          <!-- Entradas -->
+          <div class="entradas menu-restaurant">
+            <span class="clearfix">
+              <a href="#" class="menu-title">Rolinho Primavera (unidade)</a>
+              <span style="left: 166px; right: 44px;"></span>
+              <span class="menu-price">R$ 6,00</span>
+            </span>
+            <span class="menu-subtitle">Carne de boi desfiada, cenoura e repolho</span>
+          </div>
+
+          <div class="entradas menu-restaurant">
+            <span class="clearfix">
+              <a href="#" class="menu-title">Rolinho Primavera (unidade)</a>
+              <span style="left: 166px; right: 44px;"></span>
+              <span class="menu-price">R$ 6,00</span>
+            </span>
+            <span class="menu-subtitle">Carne de boi desfiada, cenoura e repolho</span>
+          </div>
+
+          <!-- FIM Entradas -->
+
+          <!-- Especialidades da casa -->
+          <div class="especialidade-da-casa menu-restaurant">
+            <span class="clearfix">
+              <a href="#" class="menu-title">Rolinho Primavera (unidade)</a>
+              <span style="left: 166px; right: 44px;"></span>
+              <span class="menu-price">R$ 6,00</span>
+            </span>
+            <span class="menu-subtitle">Carne de boi desfiada, cenoura e repolho</span>
+          </div>
+          <div class="especialidade-da-casa menu-restaurant">
+            <span class="clearfix">
+              <a href="#" class="menu-title">Rolinho Primavera (unidade)</a>
+              <span style="left: 166px; right: 44px;"></span>
+              <span class="menu-price">R$ 6,00</span>
+            </span>
+            <span class="menu-subtitle">Carne de boi desfiada, cenoura e repolho</span>
+          </div>
+          <!-- Fim Especialidades da casa -->
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
