@@ -218,11 +218,73 @@ iframe{
                   Cardapio
 /* ========================================= */
 
-.menu-body{
+.cardapio{
   font-size: 15px;
   line-height: 1.52;
-  color: #717f86;
   font-family: 'Acme', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  text-align: center;
+  padding-bottom: 20px;
 }
+
+.menu-entradas{
+  padding-top: 80px;
+  color: black;
+}
+
+.pratos{
+  color: #ad0202;
+}
+
+.prato{
+  padding-bottom: 20px;
+}
+
+.prato p{
+  margin-bottom: 1px;
+  font-size: 20px;
+}
+
+.menu-entradas{
+  margin-bottom: 30px;
+}
+
+.menu-especialidades{
+  margin-bottom: 30px;
+}
+.menu-sopas{
+  margin-bottom: 30px;
+}
+.menu-frango{
+  margin-bottom: 30px;
+}
+.menu-frutos-do-mar{
+  margin-bottom: 30px;
+}
+.menu-boi{
+  margin-bottom: 30px;
+}
+.menu-porco{
+  margin-bottom: 30px;
+}
+.menu-carne-tofu{
+  margin-bottom: 30px;
+}
+.menu-vegetariano{
+  margin-bottom: 30px;
+}
+.menu-guarnições{
+  margin-bottom: 30px;
+}
+
+.menu-macarrao{
+  margin-bottom: 30px;
+}
+
+.menu-sobremesa{
+  margin-bottom: 30px;
+}
+
+
+
